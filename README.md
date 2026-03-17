@@ -21,20 +21,21 @@ An end-to-end Machine Learning pipeline that scrapes news articles, processes te
 ## ML Pipeline Architecture
  
 News Scraper
-      ↓
+      --
 Text Cleaning
-      ↓
+      --
 NER (spaCy)
-      ↓
+      --
 Chunking
-      ↓
+      --
 Transformer Summarizer
-      ↓
+      --
 Evaluation (ROUGE / METEOR)
-      ↓
+      --
 Dashboard Output
 
 ## Project Structure
+
 automated-news-summarizer
 │
 ├── dashboard
